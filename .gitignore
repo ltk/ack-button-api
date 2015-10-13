@@ -1,1 +1,1 @@
-config/*.db
+db/sinatra_application.sqlite3.db
