@@ -7,6 +7,7 @@ require "./app/models/ack"
 
 before do
   content_type :json
+  headers "Access-Control-Allow-Origin" => "*"
 end
 
 not_found do
